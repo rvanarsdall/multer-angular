@@ -1,0 +1,8 @@
+<input type="text" [(ngModel)]="username">
+<input type="text" [(ngModel)]="password">
+<button (click)="login()">Click to Login</button>
+<br>
+<br>
+<textarea [(ngModel)]="description"></textarea>
+<input type="file" name="image" (change)="selectImage($event)" />
+<button (click)="onSubmit()">Click to CreateUpload</button>
